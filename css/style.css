@@ -182,3 +182,39 @@ aside{
     flex:1;
     line-height: 30px;
 }
+
+/* ----CONTAINER MAIN---- */
+.container-main{
+    flex: 1;
+    height: 100%;
+    background-color: #141922;
+    overflow: auto;
+    padding-top: 150px;
+}
+/* ----HEADER---- */
+header{
+    position: fixed;
+    top: 0;
+    width: calc(100% - 250px);
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.upgrade{
+    width: auto;
+    height: 50px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    margin: 0 20px;
+}
+
+.upgrade:hover{
+    transform: scale(1.1);
+}
