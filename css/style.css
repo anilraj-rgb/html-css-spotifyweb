@@ -218,3 +218,31 @@ header{
 .upgrade:hover{
     transform: scale(1.1);
 }
+
+/* ----NAVBAR---- */
+nav{
+    min-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 900;
+}
+
+nav > a:not(nav > a:last-child) {
+    margin-right: 20px;
+}
+
+.underline{
+    position: relative;
+}
+
+.underline::before{
+    content: '';
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: -5px;
+    height: 4px;
+    background-color: yellowgreen;
+}
+    
