@@ -455,3 +455,14 @@ footer{
         width: calc(100% / 4);
     }
 }
+
+@media only screen and (max-width: 768px){
+    body{
+        font-size: 13px;
+    }
+
+    .box-song{
+        width: calc(100% / 2);
+    }
+
+}
