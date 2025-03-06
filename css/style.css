@@ -368,3 +368,21 @@ footer{
     width: 60%;
     color: #FFF;
 }
+
+/* .song-cmd{
+    width: 20%;
+} */
+
+.song-cmd i:not(.fa-play-circle){
+    font-size: 20px;
+    margin:5px
+}
+
+.song-cmd i.fa-play-circle{
+    font-size: 40px;
+    margin: 10px;
+}
+
+.song-cmd i.fa-play-circle:hover{
+    transform: scale(1.1);
+}
