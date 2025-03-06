@@ -444,3 +444,14 @@ footer{
 .mobile-show{
     display:none;
 }
+
+/* class mobile-hide only for width>575px */
+@media only screen and (min-width: 769px) and (max-width:992px){
+    body{
+        font-size: 14px;
+    }
+
+    .box-song{
+        width: calc(100% / 4);
+    }
+}
