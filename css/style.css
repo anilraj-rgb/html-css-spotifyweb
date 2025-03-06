@@ -358,3 +358,13 @@ footer{
 .cover i{
     font-size: 20px;
 }
+
+/* ----CENTRAL PANEL---- */
+.song-cmd, .song-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 60%;
+    color: #FFF;
+}
