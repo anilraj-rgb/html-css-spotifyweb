@@ -439,3 +439,8 @@ footer{
 .range:hover .range-cmd{
     display: block;
 }
+
+/* ----UTILITY MEDIA QUERY----*/
+.mobile-show{
+    display:none;
+}
