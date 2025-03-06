@@ -400,3 +400,42 @@ footer{
     margin-right: 20px;
     color: white;
 }
+
+/* ------------------------------------------ */
+/* ---- RANGE---- */
+.range{
+    height: 8px;
+    width: 80%;
+    background-color: rgb(102, 95, 95);
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-clip: padding-box;
+    margin: 0 10px;
+}
+
+.range-value{
+    height: 100%;
+    width: 30%;
+    background-color: #CCC;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+}
+
+.range:hover .range-value{
+    background-color: yellow;
+}
+
+.range-cmd{
+    background-color: white;
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: -3px;
+    left: 100%;
+    display: none;
+}
+
+.range:hover .range-cmd{
+    display: block;
+}
