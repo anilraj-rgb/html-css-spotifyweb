@@ -386,3 +386,17 @@ footer{
 .song-cmd i.fa-play-circle:hover{
     transform: scale(1.1);
 }
+
+/* ----RIGHT PANEL---- */
+.app-cmd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.app-cmd > i{
+    font-size: 15px;
+    margin-right: 20px;
+    color: white;
+}
